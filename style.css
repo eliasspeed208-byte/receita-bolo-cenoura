@@ -48,16 +48,14 @@ li {
     margin-bottom: 10px;
 }
 
-/* ===== CRITÉRIO: SÓLIDOS E LÍQUIDOS ===== */
 .solido {
-    background: #FFF8DC;   /* Amarelo claro para sólidos */
+    background: #FFF8DC;
 }
 
 .liquido {
-    background: #E3F2FD;   /* Azul claro para líquidos */
+    background: #E3F2FD;
 }
 
-/* ===== ESTILOS DA TABELA ===== */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -80,14 +78,13 @@ tr:hover {
     background: #f5f5f5;
 }
 
-/* ===== ESTILIZAÇÃO DOS PREÇOS ===== */
 .valor {
-    color: #1565C0;        /* Azul escuro para o preço unitário */
+    color: #1565C0;
     font-weight: bold;
 }
 
 .total {
-    color: #D32F2F;        /* Vermelho para o preço total */
+    color: #D32F2F;
     font-weight: bold;
 }
 
