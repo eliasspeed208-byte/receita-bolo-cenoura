@@ -3,209 +3,109 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bolo de Cenoura com Cobertura de Chocolate</title>
-    <!-- CSS EXTERNO (INCORPORAÇÃO) -->
+    <title>Receita de Bolo de Chocolate</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-    <!-- ====== CABEÇALHO ====== -->
-    <header class="header">
-        <div class="header-badge">🍰 Receita Clássica</div>
-        <h1>Bolo de Cenoura com <span>Cobertura de Chocolate</span></h1>
-        <p class="subtitle">
-            Uma receita tradicional brasileira, fofinha, úmida e com a cobertura
-            de chocolate que derrete na boca. Perfeita para o café da tarde!
-        </p>
-        <div class="header-meta">
-            <span>⏱️ Preparo: 50 min</span>
-            <span>👨‍🍳 Rendimento: 10 porções</span>
-            <span>⭐ Dificuldade: Fácil</span>
-        </div>
+    <header>
+        <h1>🍫 Receita de Bolo de Chocolate</h1>
+        <p>Uma receita simples, econômica e deliciosa.</p>
     </header>
 
-    <!-- ====== SEÇÃO: TABELA DE PREÇOS ====== -->
-    <section class="price-section">
-        <div class="section-header">
-            <h2>📊 Tabela de Preços dos Ingredientes</h2>
-            <p>
-                Estimativa de custo com base em valores de mercado.
-                Os ingredientes estão classificados entre <strong class="solid-tag">sólidos</strong>
-                e <strong class="liquid-tag">líquidos</strong>.
-            </p>
-        </div>
-
-        <div class="table-wrapper">
-            <table class="price-table">
-                <thead>
-                    <tr>
-                        <th>Produto</th>
-                        <th>Unidade</th>
-                        <th>Preço Unitário</th>
-                        <th>Quantidade</th>
-                        <th>Preço Total</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- ===== SÓLIDOS (fundo laranja) ===== -->
-                    <tr class="solid-row">
-                        <td class="produto">🥕 Cenoura (média)</td>
-                        <td>unidade</td>
-                        <td class="unit-price">R$ 2,50</td>
-                        <td>3 un</td>
-                        <td class="total-price">R$ 7,50</td>
-                    </tr>
-                    <tr class="solid-row">
-                        <td class="produto">🍚 Açúcar</td>
-                        <td>kg</td>
-                        <td class="unit-price">R$ 6,00</td>
-                        <td>400 g</td>
-                        <td class="total-price">R$ 2,40</td>
-                    </tr>
-                    <tr class="solid-row">
-                        <td class="produto">🌾 Farinha de Trigo</td>
-                        <td>kg</td>
-                        <td class="unit-price">R$ 5,80</td>
-                        <td>240 g</td>
-                        <td class="total-price">R$ 1,39</td>
-                    </tr>
-                    <tr class="solid-row">
-                        <td class="produto">🧂 Fermento em Pó</td>
-                        <td>g</td>
-                        <td class="unit-price">R$ 0,12</td>
-                        <td>15 g</td>
-                        <td class="total-price">R$ 1,80</td>
-                    </tr>
-                    <tr class="solid-row">
-                        <td class="produto">🧂 Sal</td>
-                        <td>g</td>
-                        <td class="unit-price">R$ 0,02</td>
-                        <td>5 g</td>
-                        <td class="total-price">R$ 0,10</td>
-                    </tr>
-                    <tr class="solid-row">
-                        <td class="produto">🍫 Chocolate em Pó</td>
-                        <td>g</td>
-                        <td class="unit-price">R$ 0,18</td>
-                        <td>50 g</td>
-                        <td class="total-price">R$ 9,00</td>
-                    </tr>
-                    <tr class="solid-row">
-                        <td class="produto">🧈 Manteiga</td>
-                        <td>g</td>
-                        <td class="unit-price">R$ 0,05</td>
-                        <td>15 g</td>
-                        <td class="total-price">R$ 0,75</td>
-                    </tr>
-
-                    <!-- ===== LÍQUIDOS (fundo azul) ===== -->
-                    <tr class="liquid-row">
-                        <td class="produto">🥚 Ovos</td>
-                        <td>unidade</td>
-                        <td class="unit-price">R$ 1,20</td>
-                        <td>3 un</td>
-                        <td class="total-price">R$ 3,60</td>
-                    </tr>
-                    <tr class="liquid-row">
-                        <td class="produto">🫒 Óleo</td>
-                        <td>ml</td>
-                        <td class="unit-price">R$ 0,04</td>
-                        <td>240 ml</td>
-                        <td class="total-price">R$ 9,60</td>
-                    </tr>
-                    <tr class="liquid-row">
-                        <td class="produto">🥛 Leite</td>
-                        <td>ml</td>
-                        <td class="unit-price">R$ 0,03</td>
-                        <td>120 ml</td>
-                        <td class="total-price">R$ 3,60</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="4" class="total-label"><strong>💵 Custo Total Estimado</strong></td>
-                        <td class="grand-total"><strong>R$ 39,74</strong></td>
-                    </tr>
-                </tfoot>
-            </table>
-        </div>
-
-        <!-- legenda -->
-        <div class="legend">
-            <span class="legend-item solid-legend">■ Sólidos</span>
-            <span class="legend-item liquid-legend">■ Líquidos</span>
-        </div>
+    <section class="receita">
+        <h2>Ingredientes</h2>
+        <ul>
+            <li class="solido">2 xícaras de farinha de trigo</li>
+            <li class="solido">1 xícara de açúcar</li>
+            <li class="liquido">1 xícara de leite</li>
+            <li class="liquido">3 ovos</li>
+            <li class="liquido">1/2 xícara de óleo</li>
+            <li class="solido">1 xícara de chocolate em pó</li>
+            <li class="solido">1 colher de fermento em pó</li>
+        </ul>
     </section>
 
-    <!-- ====== SEÇÃO: MODO DE PREPARO ====== -->
-    <section class="prep-section">
-        <div class="section-header">
-            <h2>👩‍🍳 Modo de Preparo</h2>
-        </div>
-
-        <div class="prep-grid">
-            <div class="prep-card">
-                <div class="step-number">1</div>
-                <h3>Massa do Bolo</h3>
-                <p>
-                    No liquidificador, bata as cenouras, os ovos, o óleo e o açúcar
-                    até obter uma mistura homogênea. Em uma tigela, peneire a farinha
-                    e o fermento. Despeje a mistura líquida sobre os secos e mexa
-                    delicadamente até incorporar.
-                </p>
-            </div>
-            <div class="prep-card">
-                <div class="step-number">2</div>
-                <h3>Assar</h3>
-                <p>
-                    Despeje a massa em uma forma untada e enfarinhada. Leve ao forno
-                    preaquecido a 180°C por cerca de 35 a 40 minutos, ou até que um
-                    palito saia limpo.
-                </p>
-            </div>
-            <div class="prep-card">
-                <div class="step-number">3</div>
-                <h3>Cobertura</h3>
-                <p>
-                    Em uma panela, misture o chocolate em pó, o açúcar, o leite e a
-                    manteiga. Leve ao fogo médio, mexendo sempre, até engrossar.
-                    Despeje sobre o bolo ainda quente e espalhe bem.
-                </p>
-            </div>
-            <div class="prep-card">
-                <div class="step-number">4</div>
-                <h3>Finalizar</h3>
-                <p>
-                    Aguarde a cobertura firmar por cerca de 15 minutos antes de servir.
-                    Acompanha um café fresquinho ou um chá da sua preferência.
-                </p>
-            </div>
-        </div>
+    <section class="preparo">
+        <h2>Modo de Preparo</h2>
+        <ol>
+            <li>Misture os ingredientes secos.</li>
+            <li>Acrescente os líquidos e os ovos.</li>
+            <li>Misture até formar uma massa homogênea.</li>
+            <li>Adicione o fermento por último.</li>
+            <li>Leve ao forno por aproximadamente 40 minutos a 180°C.</li>
+        </ol>
     </section>
 
-    <!-- ====== SEÇÃO: DICA EXTRA ====== -->
-    <section class="tip-section">
-        <div class="tip-card">
-            <span class="tip-icon">💡</span>
-            <div>
-                <h3>Dica do Chef</h3>
-                <p>
-                    Para um bolo ainda mais úmido, substitua 50 ml do óleo por
-                    <strong>purê de maçã</strong> ou <strong>iogurte natural</strong>.
-                    Isso reduz as calorias e mantém a textura macia!
-                </p>
-            </div>
-        </div>
+    <section class="tabela-precos">
+        <h2>Tabela de Preços dos Ingredientes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Unidade</th>
+                    <th>Preço Unitário</th>
+                    <th>Quantidade</th>
+                    <th>Total Estimado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="solido">
+                    <td>Farinha de trigo</td>
+                    <td>kg</td>
+                    <td class="valor">R$ 6,00</td>
+                    <td>500 g</td>
+                    <td class="total">R$ 3,00</td>
+                </tr>
+                <tr class="solido">
+                    <td>Açúcar</td>
+                    <td>kg</td>
+                    <td class="valor">R$ 5,00</td>
+                    <td>200 g</td>
+                    <td class="total">R$ 1,00</td>
+                </tr>
+                <tr class="liquido">
+                    <td>Leite</td>
+                    <td>litro</td>
+                    <td class="valor">R$ 6,50</td>
+                    <td>250 ml</td>
+                    <td class="total">R$ 1,63</td>
+                </tr>
+                <tr class="solido">
+                    <td>Chocolate em pó</td>
+                    <td>kg</td>
+                    <td class="valor">R$ 30,00</td>
+                    <td>100 g</td>
+                    <td class="total">R$ 3,00</td>
+                </tr>
+                <tr class="liquido">
+                    <td>Óleo</td>
+                    <td>litro</td>
+                    <td class="valor">R$ 8,00</td>
+                    <td>125 ml</td>
+                    <td class="total">R$ 1,00</td>
+                </tr>
+                <tr class="solido">
+                    <td>Fermento</td>
+                    <td>100 g</td>
+                    <td class="valor">R$ 4,50</td>
+                    <td>10 g</td>
+                    <td class="total">R$ 0,45</td>
+                </tr>
+                <tr class="solido">
+                    <td>Ovos</td>
+                    <td>unidade</td>
+                    <td class="valor">R$ 1,20</td>
+                    <td>3 unidades</td>
+                    <td class="total">R$ 3,60</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
-    <!-- ====== RODAPÉ ====== -->
-    <footer class="footer">
-        <p>
-            Receita tradicional · Feita com carinho para você 🧡
-        </p>
-        <p class="footer-small">
-            Valores estimados · Preços podem variar conforme região e fornecedor.
-        </p>
+    <footer>
+        <p>Receita desenvolvida para atividade de HTML e CSS.</p>
     </footer>
 
 </body>
